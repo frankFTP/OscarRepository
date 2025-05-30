@@ -6,9 +6,8 @@ body {
     color: #333;
 }
 
-
 header {
-    background-color: #4CAF50;
+    background-color: #84DCC6;
     color: white;
     text-align: center;
     padding: 20px;
@@ -16,12 +15,16 @@ header {
 
 
 .container {
+    background-color: black;
+    opacity: 0.5;
+    box-shadow: #333;
     padding: 20px;
+    align-content: center;
 }
 
 
 footer {
-    background-color: #333;
+    background-color: #A5FFD6
     color: white;
     text-align: center;
     padding: 10px;
