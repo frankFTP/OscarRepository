@@ -41,3 +41,50 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.contacts-box {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contacts-box h2 {
+    color: #4CAF50;
+    text-align: center;
+}
+
+.contacts-box p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.contacts-box a {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contacts-box a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.social-icon {
+    display: inline-block;
+    background-color: #ddd;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.social-icon:hover {
+    background-color: #ccc;
+}
