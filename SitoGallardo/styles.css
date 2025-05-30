@@ -7,10 +7,16 @@ body {
 }
 
 .navbar {
-    background-color: #84DCC6;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 20px;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: red;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.3);
 }
 
 
