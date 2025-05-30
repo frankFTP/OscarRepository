@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #ffffff;
+    color: #000000;
 }
 
-header {
+.navbar {
     background-color: #84DCC6;
     color: white;
     text-align: center;
@@ -15,16 +15,17 @@ header {
 
 
 .container {
-    background-color: black;
-    opacity: 0.5;
-    box-shadow: #333;
-    padding: 20px;
-    align-content: center;
+    background-color: red;
+    opacity: 0,5;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
 }
 
 
 footer {
-    background-color: #A5FFD6
+    background-color: #A5FFD6;
     color: white;
     text-align: center;
     padding: 10px;
